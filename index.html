@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Registration Form</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Registration Form</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav> 
+    <div class="container mt-5">
+        <h2 class="text-center text-primary">Registration Form</h2>
+        <form class="border p-4 shadow-sm bg-light">
+            <div class="row mb-3">
+                <div class="col-md-6">
+                <label for="firstname" class="form-label">First Name</label>
+                <input type="firstname" class="form-control" id="firstname" placeholder="Enter your First Name">
+                </div>
+                <div class="col-md-6">
+                <label for="lastname" class="form-label">Last Name</label>
+                <input type="lastname" class="form-control" id="lastname" placeholder="Enter your Last Name">
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control is-invalid" id="email" placeholder="Enter your email">
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control is-invalid" id="password" placeholder="Enter your password">
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="agree" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">Agree to terms</label>
+              </div>
+            <button type="submit" class="btn btn-success w-100">Register</button>
+        </form>
+    </div>  
+    <div class="container mt-5">
+        <h2 class="text-center text-primary">User Data</h2>
+        <table class="table table-striped table-hover border">
+            <thead class="table-dark">
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Password</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Jane Doe</td>
+                    <td>jane.doe@example.com</td>
+                    <td>mypwr0x!</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>John Smith</td>
+                    <td>john.smith@example.com</td>
+                    <td>badpasswrd</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>John Jones</td>
+                    <td>john.jones@example.com</td>
+                    <td>thispwrulz1234!</td> 
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Harry Vanderspiegel</td>
+                    <td>harry.vanderspiegel@example.com</td>
+                    <td>dundun</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <img src="static/041.webp" max-width="100%" height="auto" class="img-fluid" alt="pic">
+    <div class="text-center">
+<img src="static/400.jpg" class="rounded-circle" alt="400 responsive image">
+</div>
+<button type="button" class="btn btn-outline-primary">Primary</button>
+<div class="d-none d-sm-block"><button type="button" class="btn btn-outline-secondary">Secondary</button></div>
+</body>
+</html>
